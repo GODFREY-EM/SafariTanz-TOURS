@@ -21,4 +21,4 @@ Safaritanz Tours is a premier tourism business based in Tanzania, specializing i
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/Safaritanz-Tours.git
+   git clone https://github.com/YOUR_USERNAME/SafariTanz-TOURS.git
