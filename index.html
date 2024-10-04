@@ -107,14 +107,13 @@
             </button>
 
           </div>
-
+         
           <ul class="navbar-list">
             <li>
               <a href="#home" class="navbar-link" data-nav-link>Home</a>
             </li>
             <li>
               <a href="#about" class="navbar-link" data-nav-link>About Us</a>
-              <!-- Assuming you have a section with ID 'about' -->
             </li>
             <li>
               <a href="destinations.html" class="navbar-link" data-nav-link>Destinations</a>
@@ -124,17 +123,20 @@
             </li>
             <li>
               <a href="#gallery" class="navbar-link" data-nav-link>Gallery</a>
-              <!-- Assuming you have a section with ID 'gallery' -->
             </li>
-            <li>
-              <a href="blog.html" class="navbar-link" data-nav-link>Blog</a>
+            <li class="dropdown"> <!-- Add class 'dropdown' to the Blog menu -->
+              <a href="#" class="navbar-link" data-nav-link>Blog</a>
+              <!-- Dropdown menu for blogs -->
+              <ul class="dropdown-menu">
+                <li><a href="single.html" class="navbar-link">Blog 1</a></li>
+                <li><a href="single2.html" class="navbar-link">Blog 2</a></li>
+              </ul>
             </li>
             <li>
               <a href="#contact" class="navbar-link" data-nav-link>Contact Us</a>
-              <!-- Assuming you have a section with ID 'contact' -->
             </li>
           </ul>
-
+          
 
         </nav>
 
