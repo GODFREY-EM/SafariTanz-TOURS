@@ -79,6 +79,44 @@
 
 
 
+/* Style the dropdown menu */
+.navbar-list .dropdown {
+  position: relative; /* Position the dropdown relative to the parent li */
+}
+
+/* Initially hide the dropdown menu */
+.navbar-list .dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%; /* Position it directly below the parent menu item */
+  left: 0;
+  background-color: #fff; /* Change background color if needed */
+  padding: 0;
+  list-style: none;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1000; /* Ensure dropdown appears on top */
+}
+
+/* Show the dropdown menu when hovering over the 'Blog' list item */
+.navbar-list .dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Style the individual dropdown links */
+.navbar-list .dropdown-menu li a {
+  display: block;
+  padding: 10px 15px;
+  color: #000; /* Set the text color */
+  text-decoration: none;
+}
+
+/* Add hover effect for the dropdown links */
+.navbar-list .dropdown-menu li a:hover {
+  background-color: #f2f2f2; /* Background color on hover */
+}
+
+
+
 
 
 /*-----------------------------------*\
